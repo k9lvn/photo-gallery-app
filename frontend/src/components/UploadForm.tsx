@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { beginAddPhoto } from "../actions/photos";
 
+// we can make the form control a separate component to customize control over file name display
+// bugs: 
+// - filename clears after choosing and then cancel
+
 function UploadForm() {
   const [photo, setPhoto] = useState<File | null>(null);
   const [photoUrl, setPhotoUrl] = useState("");
