@@ -1,1 +1,0 @@
-{"version":3,"file":"Photo.js","sourceRoot":"","sources":["../../model/Photo.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;AAAA,qDAAsD;AAMtD,MAAM,WAAW,GAAW,IAAI,iBAAM,CAAC;IACrC,KAAK,EAAE;QACL,IAAI,EAAE,MAAM;KACb;CACF,CAAC,CAAC;AAEH,6CAA6C;AAC7C,oCAAoC;AACpC,yBAAyB;AACzB,mBAAmB;AACnB,KAAK;AAEL,MAAM,KAAK,GAAG,kBAAQ,CAAC,KAAK,CAAS,OAAO,EAAE,WAAW,CAAC,CAAC;AAE3D,kBAAe,KAAK,CAAC"}
