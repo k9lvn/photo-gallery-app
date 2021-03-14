@@ -7,11 +7,13 @@ body {
   font-family: Noto Sans, Helvetica, sans-serif;
   color: #666;
   letter-spacing: 1px;
-  min-height: 100vh;
+  // min-height: 100vh;
   font-size: 1.6rem;
   // for no scrollbar
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* ----- header css starts here ----- */
