@@ -4,7 +4,7 @@ module.exports = (app) => {
   app.use(
     "/photos",
     createProxyMiddleware({
-      target: "http://localhost:3300",
+      target: "https://k9lvn-photo-gallery-app.herokuapp.com/photos",
       changeOrigin: true,
       // pathRewrite: {
       //   "^/api": "/api/v1"
