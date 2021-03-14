@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/photo_gallery",
+  `mongodb+srv://db-app:${process.env.MONGO_PASS}@photo-gallery-app-clust.jst9b.mongodb.net/photo_gallery?retryWrites=true&w=majority`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
