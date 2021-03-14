@@ -11,10 +11,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node-dev .",
-    "build": "tsc .",
+    "start": "node dist/index.js",
+    "build": "tsc",
     "postinstall": "npm run build",
-    "heroku-deploy": "node dist/index.js "
+    "heroku-deploy": "node dist/index.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
