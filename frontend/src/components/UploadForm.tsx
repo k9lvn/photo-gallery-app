@@ -9,7 +9,7 @@ import { beginAddPhoto } from "../actions/photos";
 function UploadForm() {
   const [photo, setPhoto] = useState<File | null>(null);
   const [photoUrl, setPhotoUrl] = useState("");
-  const [photoName, setPhotoName] = useState("");
+  // const [photoName, setPhotoName] = useState("");
 
   const checkFileSize = (file: File) => {
     if (file.size > 1000000) {
