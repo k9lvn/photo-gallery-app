@@ -96,6 +96,7 @@ h2 {
     margin: 1rem;
 
     img {
+      image-rendering: -webkit-optimize-contrast;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; // for compatibility
       // -webkit-transform: translateZ(0) scale(0.95, 0.95);
@@ -164,6 +165,8 @@ button {
 .preview-img {
   width: 75%;
   padding: 10px;
+
+  image-rendering: -webkit-optimize-contrast;
 }
 
 /* ----- messages css ends here ----- */
